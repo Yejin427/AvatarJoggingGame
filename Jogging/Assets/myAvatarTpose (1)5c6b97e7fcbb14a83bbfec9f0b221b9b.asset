@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1260b785da3e24ebe737764cc33de0, type: 3}
+  m_Name: myAvatarTpose (1)5c6b97e7fcbb14a83bbfec9f0b221b9b
+  m_EditorClassIdentifier: 
+  note: 
+  parentCalibrationData:
+  - bone: 14
+    data:
+      parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/
+      childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/
+      tparentn: PipeServer/Body Parent/RIGHT_SHOULDER/
+      tchildn: PipeServer/Body Parent/RIGHT_ELBOW/
+      initialDir: {x: -0.9980025, y: 0.05245138, z: 0.03521139}
+      initialRotation: {x: 0.5159139, y: -0.51590747, z: 0.48356932, w: 0.48356292}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 16
+    data:
+      parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/
+      childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/
+      tparentn: PipeServer/Body Parent/RIGHT_ELBOW/
+      tchildn: PipeServer/Body Parent/RIGHT_WRIST/
+      initialDir: {x: -0.99517304, y: -0.08985018, z: 0.03946479}
+      initialRotation: {x: 0.5194901, y: -0.51948357, z: 0.47972515, w: 0.47971943}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 2
+    data:
+      parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:RightUpLeg/
+      childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/
+      tparentn: PipeServer/Body Parent/RIGHT_HIP/
+      tchildn: PipeServer/Body Parent/RIGHT_KNEE/
+      initialDir: {x: -0.02327236, y: -0.9982789, z: -0.053830087}
+      initialRotation: {x: 0.99998486, y: 0.004465546, z: -0.0010889529, w: 0.0030233986}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 4
+    data:
+      parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/
+      childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/
+      tparentn: PipeServer/Body Parent/RIGHT_KNEE/
+      tchildn: PipeServer/Body Parent/RIGHT_ANKLE/
+      initialDir: {x: 0.016392112, y: -0.9175263, z: 0.3973371}
+      initialRotation: {x: 0.9996275, y: -0.0047953334, z: -0.0013188391, w: 0.02683688}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 13
+    data:
+      parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/
+      childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/
+      tparentn: PipeServer/Body Parent/LEFT_SHOULDER/
+      tchildn: PipeServer/Body Parent/LEFT_ELBOW/
+      initialDir: {x: 0.91058064, y: -0.3168724, z: -0.26539546}
+      initialRotation: {x: 0.5165818, y: 0.5165818, z: -0.48284936, w: 0.48284885}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 15
+    data:
+      parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/
+      childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/
+      tparentn: PipeServer/Body Parent/LEFT_ELBOW/
+      tchildn: PipeServer/Body Parent/LEFT_WRIST/
+      initialDir: {x: 0.9293404, y: -0.06662285, z: -0.36316365}
+      initialRotation: {x: 0.51966, y: 0.51966035, z: -0.4795346, w: 0.47953427}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 1
+    data:
+      parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:LeftUpLeg/
+      childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/
+      tparentn: PipeServer/Body Parent/LEFT_HIP/
+      tchildn: PipeServer/Body Parent/LEFT_KNEE/
+      initialDir: {x: -0.11219063, y: -0.99354863, z: 0.01656745}
+      initialRotation: {x: 0.99998105, y: -0.0044644442, z: 0.00097516464, w: 0.0041314224}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 3
+    data:
+      parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/
+      childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/
+      tparentn: PipeServer/Body Parent/LEFT_KNEE/
+      tchildn: PipeServer/Body Parent/LEFT_ANKLE/
+      initialDir: {x: 0.114358515, y: -0.932033, z: 0.3438556}
+      initialRotation: {x: 0.99961346, y: 0.00479272, z: 0.0011893074, w: 0.027357632}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 5
+    data:
+      parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/
+      childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase/
+      tparentn: PipeServer/Body Parent/LEFT_ANKLE/
+      tchildn: PipeServer/Body Parent/LEFT_FOOT_INDEX/
+      initialDir: {x: 0.10120375, y: -0.31631467, z: -0.94324064}
+      initialRotation: {x: 0.8687833, y: 0.013673172, z: -0.07260887, w: -0.4896494}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 6
+    data:
+      parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/
+      childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase/
+      tparentn: PipeServer/Body Parent/RIGHT_ANKLE/
+      tchildn: PipeServer/Body Parent/RIGHT_FOOT_INDEX/
+      initialDir: {x: 0.097385876, y: -0.5919077, z: -0.8001008}
+      initialRotation: {x: 0.8716801, y: -0.013473107, z: 0.07413188, w: -0.48424876}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  spineUpDown:
+    parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/
+    childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/
+    tparentn: VirtualHip/
+    tchildn: VirtualNeck/
+    initialDir: {x: -0.04144596, y: 0.95063746, z: -0.3075233}
+    initialRotation: {x: 1.5750004e-13, y: 0.9995004, z: 0.03160683, w: -6.4233063e-12}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  hipsTwist:
+    parentn: myAvatarTpose (1)/mixamorig:Hips/
+    childn: myAvatarTpose (1)/mixamorig:Hips/
+    tparentn: PipeServer/Body Parent/RIGHT_HIP/
+    tchildn: PipeServer/Body Parent/LEFT_HIP/
+    initialDir: {x: 0.9547966, y: 0.0043216133, z: -0.29722854}
+    initialRotation: {x: 0.00001824566, y: 1, z: -0.00000014084557, w: 0.0000005418231}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  chest:
+    parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/
+    childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/
+    tparentn: PipeServer/Body Parent/RIGHT_HIP/
+    tchildn: PipeServer/Body Parent/LEFT_HIP/
+    initialDir: {x: 0.9547966, y: 0.0043216133, z: -0.29722854}
+    initialRotation: {x: 1.5750003e-13, y: 0.9995004, z: 0.03160683, w: -6.3096195e-12}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  head:
+    parentn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/
+    childn: myAvatarTpose (1)/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head/
+    tparentn: VirtualNeck/
+    tchildn: PipeServer/Body Parent/NOSE/
+    initialDir: {x: 0.11856071, y: 0.38689038, z: -0.91447204}
+    initialRotation: {x: 7.63143e-14, y: 1, z: 7.154597e-10, w: -6.4801498e-12}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
